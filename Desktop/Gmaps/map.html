@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps</title>
+    <style>
+        #map{
+            height: 400px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<h3>Weather App</h3>
+<div id="map"></div>
+<div id="current">Nothing yet...</div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+<script src="googlemap.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhZeO42QNAkcb4IS8jv8fFOlau6yENTSU&callback=initMap">
+</script>
+<script src="map.js"></script>
+</body>
+</html>
